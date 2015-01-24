@@ -271,6 +271,7 @@
 				1F682B581A7462280021ABEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
