@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F0470621A7463A100466760 /* Application.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1F0470601A7463A100466760 /* Application.icns */; };
+		1F0470631A7463A100466760 /* Document.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1F0470611A7463A100466760 /* Document.icns */; };
 		1F682B421A7462270021ABEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F682B411A7462270021ABEA /* AppDelegate.swift */; };
 		1F682B441A7462270021ABEA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F682B431A7462270021ABEA /* Images.xcassets */; };
 		1F682B471A7462270021ABEA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F682B451A7462270021ABEA /* MainMenu.xib */; };
@@ -14,6 +16,8 @@
 
 /* Begin PBXFileReference section */
 		1F04705E1A7462CC00466760 /* WatchBuilder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = WatchBuilder.entitlements; sourceTree = "<group>"; };
+		1F0470601A7463A100466760 /* Application.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Application.icns; sourceTree = "<group>"; };
+		1F0470611A7463A100466760 /* Document.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Document.icns; sourceTree = "<group>"; };
 		1F682B3C1A7462270021ABEA /* WatchBuilder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchBuilder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F682B401A7462270021ABEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F682B411A7462270021ABEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -32,6 +36,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F04705F1A74639200466760 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				1F0470601A7463A100466760 /* Application.icns */,
+				1F0470611A7463A100466760 /* Document.icns */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
 		1F682B331A7462270021ABEA = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +74,7 @@
 		1F682B3F1A7462270021ABEA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1F04705F1A74639200466760 /* Icons */,
 				1F682B431A7462270021ABEA /* Images.xcassets */,
 				1F04705E1A7462CC00466760 /* WatchBuilder.entitlements */,
 				1F682B401A7462270021ABEA /* Info.plist */,
@@ -130,8 +144,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F0470621A7463A100466760 /* Application.icns in Resources */,
 				1F682B441A7462270021ABEA /* Images.xcassets in Resources */,
 				1F682B471A7462270021ABEA /* MainMenu.xib in Resources */,
+				1F0470631A7463A100466760 /* Document.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +256,6 @@
 		1F682B571A7462280021ABEA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = WatchBuilder/WatchBuilder.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = WatchBuilder/Info.plist;
@@ -252,7 +267,6 @@
 		1F682B581A7462280021ABEA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = WatchBuilder/WatchBuilder.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = WatchBuilder/Info.plist;
