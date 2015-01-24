@@ -52,7 +52,6 @@
 			isa = PBXGroup;
 			children = (
 				1F682B411A7462270021ABEA /* AppDelegate.swift */,
-				1F682B431A7462270021ABEA /* Images.xcassets */,
 				1F682B451A7462270021ABEA /* MainMenu.xib */,
 				1F682B3F1A7462270021ABEA /* Supporting Files */,
 			);
@@ -62,6 +61,7 @@
 		1F682B3F1A7462270021ABEA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1F682B431A7462270021ABEA /* Images.xcassets */,
 				1F04705E1A7462CC00466760 /* WatchBuilder.entitlements */,
 				1F682B401A7462270021ABEA /* Info.plist */,
 			);
