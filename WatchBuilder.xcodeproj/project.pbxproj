@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F0378FC1A7703CE00C86FA8 /* JSONEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0378FB1A7703CE00C86FA8 /* JSONEditor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F03790E1A7703CE00C86FA8 /* JSONEditor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0378F71A7703CE00C86FA8 /* JSONEditor.framework */; };
+		1F03790F1A7703CE00C86FA8 /* JSONEditor.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0378F71A7703CE00C86FA8 /* JSONEditor.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1F0379191A77041D00C86FA8 /* JSONEditorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0379171A77041D00C86FA8 /* JSONEditorController.swift */; };
+		1F03791A1A77041D00C86FA8 /* JSONEditorController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F0379181A77041D00C86FA8 /* JSONEditorController.xib */; };
 		1F0470621A7463A100466760 /* Application.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1F0470601A7463A100466760 /* Application.icns */; };
 		1F0470631A7463A100466760 /* Document.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1F0470611A7463A100466760 /* Document.icns */; };
 		1F682B421A7462270021ABEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F682B411A7462270021ABEA /* AppDelegate.swift */; };
@@ -15,7 +20,36 @@
 		3D83B9FF068C60FB17A5D7EC /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68817457F183C494E7E857C0 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		1F03790C1A7703CE00C86FA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F682B341A7462270021ABEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F0378F61A7703CE00C86FA8;
+			remoteInfo = JSONEditor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1F0379151A7703CE00C86FA8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1F03790F1A7703CE00C86FA8 /* JSONEditor.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1F0378F71A7703CE00C86FA8 /* JSONEditor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSONEditor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F0378FA1A7703CE00C86FA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F0378FB1A7703CE00C86FA8 /* JSONEditor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSONEditor.h; sourceTree = "<group>"; };
+		1F0379171A77041D00C86FA8 /* JSONEditorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONEditorController.swift; sourceTree = "<group>"; };
+		1F0379181A77041D00C86FA8 /* JSONEditorController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSONEditorController.xib; sourceTree = "<group>"; };
 		1F04705E1A7462CC00466760 /* WatchBuilder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = WatchBuilder.entitlements; sourceTree = "<group>"; };
 		1F0470601A7463A100466760 /* Application.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Application.icns; sourceTree = "<group>"; };
 		1F0470611A7463A100466760 /* Document.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Document.icns; sourceTree = "<group>"; };
@@ -30,17 +64,44 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1F0378F31A7703CE00C86FA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1F682B391A7462270021ABEA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3D83B9FF068C60FB17A5D7EC /* Pods.framework in Frameworks */,
+				1F03790E1A7703CE00C86FA8 /* JSONEditor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F0378F81A7703CE00C86FA8 /* JSONEditor */ = {
+			isa = PBXGroup;
+			children = (
+				1F0379171A77041D00C86FA8 /* JSONEditorController.swift */,
+				1F0379181A77041D00C86FA8 /* JSONEditorController.xib */,
+				1F0378F91A7703CE00C86FA8 /* Supporting Files */,
+			);
+			path = JSONEditor;
+			sourceTree = "<group>";
+		};
+		1F0378F91A7703CE00C86FA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F0378FB1A7703CE00C86FA8 /* JSONEditor.h */,
+				1F0378FA1A7703CE00C86FA8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		1F04705F1A74639200466760 /* Icons */ = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				1F682B3E1A7462270021ABEA /* WatchBuilder */,
+				1F0378F81A7703CE00C86FA8 /* JSONEditor */,
 				AC9A9D39DCF42204FEE417FD /* Frameworks */,
 				1F682B3D1A7462270021ABEA /* Products */,
 			);
@@ -63,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				1F682B3C1A7462270021ABEA /* WatchBuilder.app */,
+				1F0378F71A7703CE00C86FA8 /* JSONEditor.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,7 +171,36 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		1F0378F41A7703CE00C86FA8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0378FC1A7703CE00C86FA8 /* JSONEditor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		1F0378F61A7703CE00C86FA8 /* JSONEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F0379141A7703CE00C86FA8 /* Build configuration list for PBXNativeTarget "JSONEditor" */;
+			buildPhases = (
+				1F0378F21A7703CE00C86FA8 /* Sources */,
+				1F0378F31A7703CE00C86FA8 /* Frameworks */,
+				1F0378F41A7703CE00C86FA8 /* Headers */,
+				1F0378F51A7703CE00C86FA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSONEditor;
+			productName = JSONEditor;
+			productReference = 1F0378F71A7703CE00C86FA8 /* JSONEditor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		1F682B3B1A7462270021ABEA /* WatchBuilder */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F682B561A7462280021ABEA /* Build configuration list for PBXNativeTarget "WatchBuilder" */;
@@ -119,10 +211,12 @@
 				1F682B3A1A7462270021ABEA /* Resources */,
 				3C9317678540A23714BA0FD1 /* Embed Pods Frameworks */,
 				97C1BE41EF703DB8D91465B8 /* Copy Pods Resources */,
+				1F0379151A7703CE00C86FA8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1F03790D1A7703CE00C86FA8 /* PBXTargetDependency */,
 			);
 			name = WatchBuilder;
 			productName = WatchBuilder;
@@ -138,6 +232,9 @@
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "William Kent";
 				TargetAttributes = {
+					1F0378F61A7703CE00C86FA8 = {
+						CreatedOnToolsVersion = 6.2;
+					};
 					1F682B3B1A7462270021ABEA = {
 						CreatedOnToolsVersion = 6.1;
 						SystemCapabilities = {
@@ -162,11 +259,20 @@
 			projectRoot = "";
 			targets = (
 				1F682B3B1A7462270021ABEA /* WatchBuilder */,
+				1F0378F61A7703CE00C86FA8 /* JSONEditor */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1F0378F51A7703CE00C86FA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F03791A1A77041D00C86FA8 /* JSONEditorController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1F682B3A1A7462270021ABEA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -229,6 +335,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1F0378F21A7703CE00C86FA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0379191A77041D00C86FA8 /* JSONEditorController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1F682B381A7462270021ABEA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -238,6 +352,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F03790D1A7703CE00C86FA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F0378F61A7703CE00C86FA8 /* JSONEditor */;
+			targetProxy = 1F03790C1A7703CE00C86FA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1F682B451A7462270021ABEA /* MainMenu.xib */ = {
@@ -251,6 +373,56 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		1F0379101A7703CE00C86FA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JSONEditor/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1F0379111A7703CE00C86FA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = JSONEditor/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		1F682B541A7462280021ABEA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -359,6 +531,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1F0379141A7703CE00C86FA8 /* Build configuration list for PBXNativeTarget "JSONEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F0379101A7703CE00C86FA8 /* Debug */,
+				1F0379111A7703CE00C86FA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		1F682B371A7462270021ABEA /* Build configuration list for PBXProject "WatchBuilder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
