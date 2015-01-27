@@ -12,6 +12,7 @@
 		1F03790F1A7703CE00C86FA8 /* JSONEditor.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0378F71A7703CE00C86FA8 /* JSONEditor.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1F0379191A77041D00C86FA8 /* JSONEditorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0379171A77041D00C86FA8 /* JSONEditorController.swift */; };
 		1F03791A1A77041D00C86FA8 /* JSONEditorController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F0379181A77041D00C86FA8 /* JSONEditorController.xib */; };
+		1F03792F1A7710D300C86FA8 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F03792E1A7710B400C86FA8 /* SwiftyJSON.framework */; };
 		1F0470621A7463A100466760 /* Application.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1F0470601A7463A100466760 /* Application.icns */; };
 		1F0470631A7463A100466760 /* Document.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1F0470611A7463A100466760 /* Document.icns */; };
 		1F682B421A7462270021ABEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F682B411A7462270021ABEA /* AppDelegate.swift */; };
@@ -27,6 +28,27 @@
 			proxyType = 1;
 			remoteGlobalIDString = 1F0378F61A7703CE00C86FA8;
 			remoteInfo = JSONEditor;
+		};
+		1F03792B1A7710B400C86FA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F03791E1A77106E00C86FA8 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DA4EC804DD887B6B3BC0416A;
+			remoteInfo = Pods;
+		};
+		1F03792D1A7710B400C86FA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F03791E1A77106E00C86FA8 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CAF0A3969732F73282B7FAB8;
+			remoteInfo = "Pods-SwiftyJSON";
+		};
+		1F0379301A7710DA00C86FA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F03791E1A77106E00C86FA8 /* Pods.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A3FABB46EC546E5D2E975C36;
+			remoteInfo = "Pods-SwiftyJSON";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -50,6 +72,7 @@
 		1F0378FB1A7703CE00C86FA8 /* JSONEditor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSONEditor.h; sourceTree = "<group>"; };
 		1F0379171A77041D00C86FA8 /* JSONEditorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONEditorController.swift; sourceTree = "<group>"; };
 		1F0379181A77041D00C86FA8 /* JSONEditorController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSONEditorController.xib; sourceTree = "<group>"; };
+		1F03791E1A77106E00C86FA8 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
 		1F04705E1A7462CC00466760 /* WatchBuilder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = WatchBuilder.entitlements; sourceTree = "<group>"; };
 		1F0470601A7463A100466760 /* Application.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Application.icns; sourceTree = "<group>"; };
 		1F0470611A7463A100466760 /* Document.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Document.icns; sourceTree = "<group>"; };
@@ -68,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F03792F1A7710D300C86FA8 /* SwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +124,15 @@
 				1F0378FA1A7703CE00C86FA8 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F03791F1A77106E00C86FA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F03792C1A7710B400C86FA8 /* Pods.framework */,
+				1F03792E1A7710B400C86FA8 /* SwiftyJSON.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		1F04705F1A74639200466760 /* Icons */ = {
@@ -154,6 +187,7 @@
 		3F7AA6AF9CA5928CD60E9500 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				1F03791E1A77106E00C86FA8 /* Pods.xcodeproj */,
 				F8C7C74AA53F176742776D7F /* Pods.debug.xcconfig */,
 				6B4AFD1DF2B41A264ECF124F /* Pods.release.xcconfig */,
 			);
@@ -195,6 +229,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				1F0379311A7710DA00C86FA8 /* PBXTargetDependency */,
 			);
 			name = JSONEditor;
 			productName = JSONEditor;
@@ -256,6 +291,12 @@
 			mainGroup = 1F682B331A7462270021ABEA;
 			productRefGroup = 1F682B3D1A7462270021ABEA /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1F03791F1A77106E00C86FA8 /* Products */;
+					ProjectRef = 1F03791E1A77106E00C86FA8 /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				1F682B3B1A7462270021ABEA /* WatchBuilder */,
@@ -263,6 +304,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1F03792C1A7710B400C86FA8 /* Pods.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods.framework;
+			remoteRef = 1F03792B1A7710B400C86FA8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1F03792E1A7710B400C86FA8 /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = 1F03792D1A7710B400C86FA8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1F0378F51A7703CE00C86FA8 /* Resources */ = {
@@ -359,6 +417,11 @@
 			target = 1F0378F61A7703CE00C86FA8 /* JSONEditor */;
 			targetProxy = 1F03790C1A7703CE00C86FA8 /* PBXContainerItemProxy */;
 		};
+		1F0379311A7710DA00C86FA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SwiftyJSON";
+			targetProxy = 1F0379301A7710DA00C86FA8 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -375,6 +438,7 @@
 /* Begin XCBuildConfiguration section */
 		1F0379101A7703CE00C86FA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B4AFD1DF2B41A264ECF124F /* Pods.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -384,6 +448,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/Pods";
 				FRAMEWORK_VERSION = A;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -402,6 +467,7 @@
 		};
 		1F0379111A7703CE00C86FA8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B4AFD1DF2B41A264ECF124F /* Pods.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -412,6 +478,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/Pods";
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = JSONEditor/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -538,6 +605,7 @@
 				1F0379111A7703CE00C86FA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F682B371A7462270021ABEA /* Build configuration list for PBXProject "WatchBuilder" */ = {
 			isa = XCConfigurationList;

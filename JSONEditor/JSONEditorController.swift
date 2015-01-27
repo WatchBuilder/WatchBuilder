@@ -7,6 +7,7 @@
 //
 
 import Cocoa
+import SwiftyJSON
 
 class JSONEditorController: NSViewController {
     override func viewDidLoad() {
