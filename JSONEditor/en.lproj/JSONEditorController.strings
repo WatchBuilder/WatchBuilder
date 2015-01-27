@@ -1,0 +1,39 @@
+
+/* Class = "NSTextFieldCell"; title = "%ld items"; ObjectID = "Fof-PU-rtj"; */
+"Fof-PU-rtj.title" = "%ld items";
+
+/* Class = "NSMenuItem"; title = "Integer"; ObjectID = "IDu-rI-WHH"; */
+"IDu-rI-WHH.title" = "Integer";
+
+/* Class = "NSTableColumn"; headerCell.title = "Data Type"; ObjectID = "LJk-yI-slF"; */
+"LJk-yI-slF.headerCell.title" = "Data Type";
+
+/* Class = "NSMenuItem"; title = "Boolean"; ObjectID = "OZk-MP-pDl"; */
+"OZk-MP-pDl.title" = "Boolean";
+
+/* Class = "NSMenuItem"; title = "Dictionary"; ObjectID = "UOP-PE-ytN"; */
+"UOP-PE-ytN.title" = "Dictionary";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "VgX-UU-YT4"; */
+"VgX-UU-YT4.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "ao9-T9-vaR"; */
+"ao9-T9-vaR.title" = "Text Cell";
+
+/* Class = "NSTableColumn"; headerCell.title = "Key Name"; ObjectID = "hFf-2b-Osa"; */
+"hFf-2b-Osa.headerCell.title" = "Key Name";
+
+/* Class = "NSTextFieldCell"; title = "Item %ld"; ObjectID = "iVi-V1-oM0"; */
+"iVi-V1-oM0.title" = "Item %ld";
+
+/* Class = "NSMenuItem"; title = "Array"; ObjectID = "qel-Ja-qoK"; */
+"qel-Ja-qoK.title" = "Array";
+
+/* Class = "NSMenuItem"; title = "String"; ObjectID = "wd0-QI-W5b"; */
+"wd0-QI-W5b.title" = "String";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "yRO-7K-MSv"; */
+"yRO-7K-MSv.title" = "Text Cell";
+
+/* Class = "NSTableColumn"; headerCell.title = "Value"; ObjectID = "yxc-gx-BhE"; */
+"yxc-gx-BhE.headerCell.title" = "Value";

@@ -11,13 +11,14 @@
 		1F03790E1A7703CE00C86FA8 /* JSONEditor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0378F71A7703CE00C86FA8 /* JSONEditor.framework */; };
 		1F03790F1A7703CE00C86FA8 /* JSONEditor.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0378F71A7703CE00C86FA8 /* JSONEditor.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1F0379191A77041D00C86FA8 /* JSONEditorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0379171A77041D00C86FA8 /* JSONEditorController.swift */; };
-		1F03791A1A77041D00C86FA8 /* JSONEditorController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F0379181A77041D00C86FA8 /* JSONEditorController.xib */; };
 		1F03792F1A7710D300C86FA8 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F03792E1A7710B400C86FA8 /* SwiftyJSON.framework */; };
 		1F0470621A7463A100466760 /* Application.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1F0470601A7463A100466760 /* Application.icns */; };
 		1F0470631A7463A100466760 /* Document.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1F0470611A7463A100466760 /* Document.icns */; };
 		1F682B421A7462270021ABEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F682B411A7462270021ABEA /* AppDelegate.swift */; };
 		1F682B441A7462270021ABEA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F682B431A7462270021ABEA /* Images.xcassets */; };
 		1F682B471A7462270021ABEA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F682B451A7462270021ABEA /* MainMenu.xib */; };
+		1F8F88E31A772E88002CE00D /* JSONEditorController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F8F88E51A772E88002CE00D /* JSONEditorController.xib */; };
+		1F8F88EB1A772EC5002CE00D /* JSONEditorController.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 1F8F88ED1A772EC5002CE00D /* JSONEditorController.stringsdict */; };
 		3D83B9FF068C60FB17A5D7EC /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68817457F183C494E7E857C0 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -71,7 +72,6 @@
 		1F0378FA1A7703CE00C86FA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F0378FB1A7703CE00C86FA8 /* JSONEditor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSONEditor.h; sourceTree = "<group>"; };
 		1F0379171A77041D00C86FA8 /* JSONEditorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONEditorController.swift; sourceTree = "<group>"; };
-		1F0379181A77041D00C86FA8 /* JSONEditorController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSONEditorController.xib; sourceTree = "<group>"; };
 		1F03791E1A77106E00C86FA8 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
 		1F04705E1A7462CC00466760 /* WatchBuilder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = WatchBuilder.entitlements; sourceTree = "<group>"; };
 		1F0470601A7463A100466760 /* Application.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Application.icns; sourceTree = "<group>"; };
@@ -81,6 +81,9 @@
 		1F682B411A7462270021ABEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F682B431A7462270021ABEA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1F682B461A7462270021ABEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1F8F88E41A772E88002CE00D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/JSONEditorController.xib; sourceTree = "<group>"; };
+		1F8F88E81A772E96002CE00D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/JSONEditorController.strings; sourceTree = "<group>"; };
+		1F8F88EC1A772EC5002CE00D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = en; path = en.lproj/JSONEditorController.stringsdict; sourceTree = "<group>"; };
 		68817457F183C494E7E857C0 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B4AFD1DF2B41A264ECF124F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		F8C7C74AA53F176742776D7F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -111,7 +114,8 @@
 			isa = PBXGroup;
 			children = (
 				1F0379171A77041D00C86FA8 /* JSONEditorController.swift */,
-				1F0379181A77041D00C86FA8 /* JSONEditorController.xib */,
+				1F8F88E51A772E88002CE00D /* JSONEditorController.xib */,
+				1F8F88ED1A772EC5002CE00D /* JSONEditorController.stringsdict */,
 				1F0378F91A7703CE00C86FA8 /* Supporting Files */,
 			);
 			path = JSONEditor;
@@ -327,7 +331,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F03791A1A77041D00C86FA8 /* JSONEditorController.xib in Resources */,
+				1F8F88E31A772E88002CE00D /* JSONEditorController.xib in Resources */,
+				1F8F88EB1A772EC5002CE00D /* JSONEditorController.stringsdict in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +436,23 @@
 				1F682B461A7462270021ABEA /* Base */,
 			);
 			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		1F8F88E51A772E88002CE00D /* JSONEditorController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F8F88E41A772E88002CE00D /* Base */,
+				1F8F88E81A772E96002CE00D /* en */,
+			);
+			name = JSONEditorController.xib;
+			sourceTree = "<group>";
+		};
+		1F8F88ED1A772EC5002CE00D /* JSONEditorController.stringsdict */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F8F88EC1A772EC5002CE00D /* en */,
+			);
+			name = JSONEditorController.stringsdict;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
