@@ -9,8 +9,8 @@
 import Cocoa
 import SwiftyJSON
 
-class JSONEditorController: NSViewController {
-    override func viewDidLoad() {
+public class JSONEditorController: NSViewController {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         // Do view setup here.
     }
