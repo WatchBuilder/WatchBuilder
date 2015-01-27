@@ -35,5 +35,10 @@
             <string>%d key/value pairs</string>
         </dict>
     </dict>
+
+    <key>Add Key</key>
+    <string>Add Key</string>
+    <key>Add Value</key>
+    <string>Add Value</string>
 </dict>
 </plist>
