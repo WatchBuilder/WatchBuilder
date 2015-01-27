@@ -113,9 +113,7 @@
 		1F0378F81A7703CE00C86FA8 /* JSONEditor */ = {
 			isa = PBXGroup;
 			children = (
-				1F0379171A77041D00C86FA8 /* JSONEditorController.swift */,
-				1F8F88E51A772E88002CE00D /* JSONEditorController.xib */,
-				1F8F88ED1A772EC5002CE00D /* JSONEditorController.stringsdict */,
+				1F8F88EF1A7730A4002CE00D /* JSONEditorController */,
 				1F0378F91A7703CE00C86FA8 /* Supporting Files */,
 			);
 			path = JSONEditor;
@@ -186,6 +184,16 @@
 				1F682B401A7462270021ABEA /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F8F88EF1A7730A4002CE00D /* JSONEditorController */ = {
+			isa = PBXGroup;
+			children = (
+				1F0379171A77041D00C86FA8 /* JSONEditorController.swift */,
+				1F8F88E51A772E88002CE00D /* JSONEditorController.xib */,
+				1F8F88ED1A772EC5002CE00D /* JSONEditorController.stringsdict */,
+			);
+			name = JSONEditorController;
 			sourceTree = "<group>";
 		};
 		3F7AA6AF9CA5928CD60E9500 /* Pods */ = {
