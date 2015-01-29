@@ -4,6 +4,22 @@ WatchBuilder is an app designed to aid developing apps for the
 ᴡᴀᴛᴄʜ. It includes a code editor, compiler, debugger, and a
 high-fidelity simulation of the ᴡᴀᴛᴄʜ user interface.
 
+## Building WatchBuilder
+
+To compile WatchBuilder, you will need version 0.36 of the
+[CocoaPods](http://cocoapods.org) dependency manager. You
+can install it by opening a Terminal window and typing
+`sudo gem install cocoapods --pre`. (Be sure to pass the
+`--pre` flag; as CocoaPods 0.36 is still in beta, running
+`gem install` without it will install the wrong version.)
+
+Once CocoaPods is installed, run
+`pod install --no-integrate` inside this directory to
+install the dependencies. **Note:** Always pass `--no-integrate`
+when using CocoaPods with WatchBuilder, as WatchBuilder
+uses a custom integration method that is incompatible
+with the CocoaPods default.
+
 ## License
 
 Copyright © 2015 William Kent.
