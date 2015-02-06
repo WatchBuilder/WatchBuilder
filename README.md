@@ -1,5 +1,9 @@
 # WatchBuilder
 
+**Please note that I have closed the source of WatchBuilder for now.
+Further contributions will be done in a private repository.
+I reserve the right to re-open WatchBuilder’s source at a later date.**
+
 WatchBuilder is an app designed to aid developing apps for the
 ᴡᴀᴛᴄʜ. It includes a code editor, compiler, debugger, and a
 high-fidelity simulation of the ᴡᴀᴛᴄʜ user interface.
